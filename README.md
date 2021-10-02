@@ -12,8 +12,8 @@ Natural Language 2021/2022
 
 ### Projects
 
-- [] [First](Project1/)
-- [] [Second](Entrega3/)
+- [ ] [First Project](Project1/)
+- [ ] [Second Project]()
 
 ### Grades
 | Solution          | Grade 			   	| 
