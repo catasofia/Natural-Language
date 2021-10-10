@@ -6,6 +6,6 @@
 
 # TODO Catarina
 - [ ] b)
-- [ ] d)
+- [X] d)
 - [ ] f)
 - [ ] h)
