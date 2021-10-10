@@ -3,9 +3,11 @@
 - [ ] c)
 - [ ] e)
 - [ ] g)
+- [ ] Testar os da Catarina
 
 # TODO Catarina
-- [ ] b)
+- [X] b)
 - [X] d)
-- [ ] f)
+- [X] f)
 - [ ] h)
+- [ ] Testar os do Nelson
