@@ -1,5 +1,5 @@
 # TODO Nelson
-- [ ] a)
+- [x] a) `Not Tested yet`
 - [ ] c)
 - [ ] e)
 - [ ] g)
