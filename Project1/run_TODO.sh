@@ -13,6 +13,13 @@ for i in compiled/*.fst; do
     fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt $i | dot -Tpdf > images/$(basename $i '.fst').pdf
 done
 
+echo "Testing the transducer 'mm2mmm' with the input 'tests/mm2mmm10.txt' (stdout)"
+fstcompose compiled/mm2mmm10.fst compiled/mm2mmm.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+
+echo "Testing the transducer 'mm2mmm' with the input 'tests/mm2mmm05.txt' (stdout)"
+fstcompose compiled/mm2mmm05.fst compiled/mm2mmm.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+
+
 echo "Testing the transducer 'copy' with the input 'tests/copy7.txt' (stdout)"
 fstcompose compiled/copy7.fst compiled/copy.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 
