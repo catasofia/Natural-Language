@@ -1,8 +1,6 @@
-0   1   C   C
-1   2   C   C
+0   1   D   D
+1   2   X   X
 2   3   C   C
-3   4   X   X
-4   5   C   C
-5   6   I   I
-6   7   X   X
-7
+3   4   I   I
+4   5   X   X
+5
