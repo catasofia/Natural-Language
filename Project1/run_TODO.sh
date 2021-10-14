@@ -48,4 +48,4 @@ echo "Testing the transducer 'date2year' with the input 'tests/date2year30_11_1
 fstcompose compiled/date2year30_11_1987.fst compiled/date2year.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
 
 echo "Testing the transducer 'R2A' with the input 'tests/R2A_I' (stdout)"
-fstcompose compiled/R2A_I.fst compiled/R2A.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+fstcompose compiled/R2A3999.fst compiled/R2A.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
