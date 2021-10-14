@@ -1,8 +1,8 @@
 # TODO Nelson
-- [x] a) `Not Tested yet`
-- [x] c) `Not Tested yet`
-- [x] e) `Not Tested yet`
-- [x] g) `Not Tested yet`
+- [x] a)
+- [x] c)
+- [x] e)
+- [x] g)
 - [ ] Testar os da Catarina
 
 # TODO Catarina

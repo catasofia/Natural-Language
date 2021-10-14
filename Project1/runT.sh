@@ -17,12 +17,12 @@ printf "\n\n"
 # TODO
 echo ">> Creating image (images/):"
 for i in compiled/*.fst; do
-	printf "$(basename $i '.fst').pdf |"
+	printf "$(basename $i '.fst').pdf | "
     fstdraw --portrait --isymbols=syms.txt --osymbols=syms.txt $i | dot -Tpdf > images/$(basename $i '.fst').pdf
 done
 printf "\n\n"
 
-sourceTXT=("mm2mmm" "copy" "d2dddd" "d2dd" "date2year" "R2A")
+sourceTXT=("leap" "skip" "mm2mmm" "copy" "d2dddd" "d2dd" "date2year" "R2A")
 
 for i in ${sourceTXT[*]}; do
 	for ii in tests/$i[0-9]*.txt; do
