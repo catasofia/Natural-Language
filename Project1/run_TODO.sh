@@ -49,3 +49,9 @@ fstcompose compiled/date2year30_11_1987.fst compiled/date2year.fst | fstshortest
 
 echo "Testing the transducer 'R2A' with the input 'tests/R2A_I' (stdout)"
 fstcompose compiled/R2A3999.fst compiled/R2A.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+
+echo "Inverting R2A"
+fstinvert compiled/R2A.fst > compiled/A2R.fst
+
+echo "Testing the transducer 'A2R' with the input 'tests/A2R2000' (stdout)"
+fstcompose compiled/A2R2000.fst compiled/A2R.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
