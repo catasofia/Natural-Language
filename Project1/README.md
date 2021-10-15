@@ -3,18 +3,22 @@
 - [x] c)
 - [x] e)
 - [x] g)
-- [ ] Testar os da Catarina
+- [X] Testar os da Catarina
 
 # TODO Catarina
 - [X] b)
 - [X] d)
 - [X] f)
 - [X] h)
-- [ ] Testar os do Nelson
+- [X] Testar os do Nelson
 
 # TODO Exercise 2
 - [X] i)
-- [ ] j)
-- [ ] k)
-- [ ] l)
-- [ ] m)
+- [X] j)
+- [X] k)
+- [X] l)
+- [X] m)
+
+# TODO Final
+- [ ] Report
+- [ ] Script
