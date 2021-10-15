@@ -55,3 +55,53 @@ fstinvert compiled/R2A.fst > compiled/A2R.fst
 
 echo "Testing the transducer 'A2R' with the input 'tests/A2R2000' (stdout)"
 fstcompose compiled/A2R2000.fst compiled/A2R.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+
+echo "building birthR2A"
+fstcompose compiled/R2A.fst compiled/d2dd.fst > compiled/composed.fst
+fstconcat compiled/composed.fst compiled/copy.fst > compiled/concat.fst
+fstconcat compiled/concat.fst compiled/composed.fst > compiled/concat_aux.fst
+fstconcat compiled/concat_aux.fst compiled/copy.fst > compiled/concat1.fst
+fstcompose compiled/R2A.fst compiled/d2dddd.fst > compiled/composed2.fst
+fstconcat compiled/concat1.fst compiled/composed2.fst > compiled/birthR2A.fst
+
+
+echo "Testing the transducer 'birthR2A' with the input 'tests/' (stdout)"
+fstcompose compiled/testarUniao.fst compiled/birthR2A.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+
+rm compiled/composed.fst compiled/concat.fst compiled/concat_aux.fst compiled/concat1.fst compiled/composed2.fst
+
+
+echo "Building birthA2T"
+fstconcat compiled/copy.fst compiled/copy.fst > compiled/copy2.fst
+fstconcat compiled/copy2.fst compiled/copy.fst > compiled/copy3.fst
+fstconcat compiled/copy3.fst compiled/mm2mmm.fst > compiled/month.fst
+fstconcat compiled/month.fst compiled/copy.fst > compiled/month1.fst
+fstconcat compiled/month1.fst compiled/copy.fst > compiled/month2.fst
+fstconcat compiled/month2.fst compiled/copy.fst > compiled/month3.fst
+fstconcat compiled/month3.fst compiled/copy.fst > compiled/month4.fst
+fstconcat compiled/month4.fst compiled/copy.fst > compiled/birthA2T.fst
+
+rm compiled/copy2.fst compiled/copy3.fst compiled/month.fst compiled/month1.fst compiled/month2.fst compiled/month3.fst compiled/month4.fst
+
+echo "Testing the transducer 'birthA2T' with the input 'tests/' (stdout)"
+fstcompose compiled/birthA2T_test.fst compiled/birthA2T.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+
+echo "Building birthT2R"
+fstinvert compiled/birthR2A.fst > compiled/invertedBirthR2A.fst
+fstinvert compiled/birthA2T.fst > compiled/invertedBirthA2T.fst
+fstcompose compiled/invertedBirthA2T.fst compiled/invertedBirthR2A.fst > compiled/birthT2R.fst
+
+rm compiled/invertedBirthR2A.fst compiled/invertedBirthA2T.fst
+
+echo "Testing the transducer 'birthT2R' with the input 'tests/' (stdout)"
+fstcompose compiled/birthT2R_test.fst compiled/birthT2R.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+
+echo "Building birthR2L"
+fstcompose compiled/birthR2A.fst compiled/date2year.fst > compiled/birthR2L_aux.fst
+fstcompose compiled/birthR2L_aux.fst compiled/leap.fst > compiled/birthR2L.fst
+
+rm compiled/birthR2L_aux.fst 
+
+echo "Testing the transducer 'birthR2L' with the input 'tests/' (stdout)"
+fstcompose compiled/birthR2L_test.fst compiled/birthR2L.fst | fstshortestpath | fstproject --project_type=output | fstrmepsilon | fsttopsort | fstprint --acceptor --isymbols=./syms.txt
+
