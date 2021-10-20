@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Group 12
+# Catarina Sousa 93695 
+# Nelson Trindade 93743
+
 # Compile
 echo ">> Compiling (sources/):"
 for i in sources/*.txt; do
