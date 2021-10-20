@@ -20,5 +20,5 @@
 - [X] m)
 
 # TODO Final
-- [ ] Report
-- [ ] Script
+- [x] Report
+- [x] Script
