@@ -10,11 +10,11 @@ Natural Language 2021/2022
 
 ### Projects
 
-- [ ] [First Project](Project1/)
-- [ ] [Second Project]()
+- [x] [First Project](Project1/)
+- [ ] [Second Project](Project2/)
 
 ### Grades
-| Solution          | Grade 			   	| 
-| :-----------------| :-------------: | 
-| [Project 1]()	| *00.00* / 20.00     | 
-| [Project 2]()	| *00.00* / 20.00     |
+| Solution          | Grade 			   	|
+| :-----------------| :-------------: |
+| [Project 1](Project1/report.pdf)	| *20.00* / 20.00   |
+| [Project 2](Project2/report.pdf)	| *00.00* / 20.00     |
