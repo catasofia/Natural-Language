@@ -63,7 +63,7 @@ MUSIC	"The original ""Fantasia"" included a minor masterpiece, Bach's ""Toccata 
 MUSIC	(Sofia of the Clue Crew)  This type of chord is named for what your index finger forms across the strings	bar chord
 LITERATURE	"In his ""Ode on"" this Keats wrote, ""Heard melodies are sweet, but those unheard are sweeter"""	A Grecian Urn
 LITERATURE	Julia Ward Howe's visit to the Army of the Potomac in 1861 inspired this famous hymn	The Battle Hymn Of The Republic
-HISTORY	LITERATURE	"At the beginning of ""A Tale of Two Cities"", these 2 kings sit on the thrones of England & France"	George III & Louis XVI
+LITERATURE	"At the beginning of ""A Tale of Two Cities"", these 2 kings sit on the thrones of England & France"	George III & Louis XVI
 LITERATURE	"She described her work as ""Human nature in the Midland Countries"" & involving ""three or four families in a country village"""	Jane Austen
 HISTORY	1789: This French landmark is stormed & its governor, killed	the Bastille
 MUSIC	"The artist known as Pink now spells her professional name using one of these for the ""i"""	an exclamation point
@@ -150,7 +150,7 @@ LITERATURE	"The full title of this Spanish novel includes ""de la Mancha, El Ing
 LITERATURE	"1985 bestsellers had short titles; Michener's ""Texas"", Sagan's ""Contact"" & her ""Lucky"" are examples"	Jackie Collins
 HISTORY	A provincial capital was named for George Monteau Dunk, 2nd Earl of this	Halifax
 LITERATURE	"This 1942 French novel begins, ""Mother died today.  Or, maybe, yesterday; I can't be sure."""	The Stranger (L'Etranger)
-GEOGRAPHY	MUSIC	Start spreading the news, Ol' Blue Eyes made it here	New York
+GEOGRAPHY	Start spreading the news, Ol' Blue Eyes made it here	New York
 LITERATURE	"In addition to his ""Alice"" books, he wrote many math works including ""Euclid and His Modern Rivals"""	Lewis Carroll
 LITERATURE	"An edition of this 1934 book had on its cover a crab & ""Not to be imported into Great Britain or U.S.A."""	Tropic of Cancer (by Henry Miller)
 HISTORY	Pupil of John Calvin, this John united protestants in Scotland	John Knox
@@ -474,7 +474,7 @@ MUSIC	It was the Talking Heads' biggest U.S. hit	Burning Down the House
 LITERATURE	In addition to Buck & White Fang, this author wrote about Jerry, an Irish terrier pup	Jack London
 GEOGRAPHY	In the 1850s, Empress Eugenie helped popularize Biarritz, a town on this bay, as a fashionable resort	Bay of Biscay
 HISTORY	In November, an Andy Warhol work depicting this Asian leader sold for more than $17 million	Mao
-GEOGRAPHY	MUSIC	"Pick me up some spices if you're going to this Simon & Garfunkel ""Fair"""	Scarborough Fair
+MUSIC	"Pick me up some spices if you're going to this Simon & Garfunkel ""Fair"""	Scarborough Fair
 GEOGRAPHY	On an alphabetical list of world nations, this country immediately follows the United States	Uruguay
 HISTORY	"In 1835, many of them left Cape Colony & began their historic ""Great Trek"" to what's now the Transvaal"	the Boers
 HISTORY	In August 1994 about 30,000 gathered in Bethel, New York to celebrate the 25th anniversary of this festival	Woodstock
@@ -1004,7 +1004,7 @@ HISTORY	It could have been called Engelsism (7)	Marxism
 HISTORY	For nearly 30 years, California's Catalina Island was the spring training camp for this non-California Major League team	the Chicago Cubs
 LITERATURE	Most famous work of Edward Gibbon, who became Commissioner of Trade & Plantations	The Decline and Fall of the Roman Empire
 SCIENCE	A recent re-issue of this Sir Arthur Conan Doyle novel includes an introduction by Michael Crichton	The Lost World
-LITERATURE	MUSIC	"The band called ""They Might Be Giants"" ultimately gets its name from a phrase said by this title hero in a 1605 work"	Don Quixote
+MUSIC	"The band called ""They Might Be Giants"" ultimately gets its name from a phrase said by this title hero in a 1605 work"	Don Quixote
 HISTORY	"An August 6, 1945 Associated Press story described this as a ""Japanese army base"""	Hiroshima (story about the dropping of the first atomic bomb)
 LITERATURE	"It's the personal 3-word title of the longest poem in Walt Whitman's ""Leaves of Grass"""	Song of Myself
 MUSIC	"Ukulele Lady is a track on her ""Bathhouse Betty"" album"	Bette Midler
@@ -1067,7 +1067,7 @@ GEOGRAPHY	It's the larger of the 2 countries that occupy the Iberian Peninsula	S
 HISTORY	Around 2500 B.C. the Harappan Civilization sprung up around this river in Pakistan & nothwestern India	the Indus
 SCIENCE	The vast majority of this second-lightest gas comes from natural gas fields in the U.S.	helium
 GEOGRAPHY	This country borders every other country in South America except Ecuador & Chile	Brazil
-SCIENCE	HISTORY	"The father of this ""father of antiseptic surgery"" was one of the first to describe red blood cells"	(Joseph) Lister
+SCIENCE	"The father of this ""father of antiseptic surgery"" was one of the first to describe red blood cells"	(Joseph) Lister
 SCIENCE	Don't worry about exploding when using this heart medicine -- it's too diluted	Nitroglycerin
 SCIENCE	2 isotopes of the same element differ in the number of these subatomic particles	neutrons
 SCIENCE	Molasses is higher in this property, the resistance to flow, than water	viscosity
@@ -1343,7 +1343,7 @@ LITERATURE	"Brom Bones tells the story of the Headless Horseman in ""The Legend 
 MUSIC	"In 1910 ""The Pipe of Desire"" became the 1st American opera performed at this American opera house"	The Metropolitan
 MUSIC	"James Iha, guitarist of this ""Smashing"" group, put out a solo album in 1998"	Smashing Pumpkins
 MUSIC	"This conga drum player married Lucille Ball after starring opposite her in the movie ""Too Many Girls"""	Desi Arnaz
-HISTORY	MUSIC	In this building Ella Fitzgerald & Sarah Vaughan both won amateur talent contests, one in 1934 & the other in 1942	the Apollo Theater
+HISTORY	In this building Ella Fitzgerald & Sarah Vaughan both won amateur talent contests, one in 1934 & the other in 1942	the Apollo Theater
 HISTORY	In 1745 this Austrian archduchess obtained the title of Holy Roman Emperor for her husband	Maria Theresa
 HISTORY	King Victor Emmanuel III appionted him prime minister of Italy in 1922	Benito Mussolini
 SCIENCE	The MR in MRI, it's the absorption of energy by atoms	Magnetic resonance
@@ -1465,7 +1465,7 @@ HISTORY	In 1771 this teenage Marquis became a musketeer--good training for the A
 HISTORY	In 1700 B.C. the palace of Knossos on this Minoan island was destroyed by an earthquake	Crete
 HISTORY	"The ""Cry of Dolores"", a speech by Father Hidalgo, sparked the rebellion against this nation"	Spain
 MUSIC	In traditional solmization, do is the first note of the scale & this is the fourth note	Fa
-HISTORY	GEOGRAPHY	As a result of the 1967 Arab-Israel War, Israel took control of this disputed piece of land along the Mediterranean	the Gaza Strip
+HISTORY	As a result of the 1967 Arab-Israel War, Israel took control of this disputed piece of land along the Mediterranean	the Gaza Strip
 MUSIC	"These ""Sultans of Swing"" did ""The Walk of Life"" in 1985"	Dire Straits
 GEOGRAPHY	Important dams on this river include Rock Island, Rocky Reach & Grand Coulee	the Columbia River
 GEOGRAPHY	This city 30 miles west of Dallas was an important stop along the Chisholm Trail	Fort Worth
@@ -1533,7 +1533,7 @@ LITERATURE	"Tho he ""looked homeward"" to North Carolina, he lived in NYC becaus
 SCIENCE	Simple substance, my dear Watson (7)	an element
 LITERATURE	Esmeralda earns her living by dancing with her goat, Djali, in this novel	The Hunchback of Notre Dame
 HISTORY	Eleanor of Aquitaine was queen consort of this country before becoming queen consort of England	France
-SCIENCE	HISTORY	In 1990 IBM scientists created the first structure made by moving individual ones of these on a surface	atoms
+SCIENCE	In 1990 IBM scientists created the first structure made by moving individual ones of these on a surface	atoms
 LITERATURE	Lewis' kegs	Carroll's barrels
 MUSIC	The title of this song, Paula Abdul's third consecutive No. 1 hit in 1989, refers to a guy who's a snake	Cold Hearted Snake
 LITERATURE	Parties at her Atlanta home--now a museum--serve martinis in Mason jars, a favorite of hers	(Margaret) Mitchell
@@ -2211,7 +2211,7 @@ MUSIC	The saxophone belongs to this family, not the brass	Woodwinds
 MUSIC	Bryan Adams & the Wallflowers have recently gone acoustic for this MTV concert series	MTV Unplugged
 SCIENCE	A prism rearranges white light into the visible one of these	spectrum
 MUSIC	These 2 small, often high-pitched drums are often played while held between the player's knees	bongos
-LITERATURE	MUSIC	Each movement in this 1888 suite by Rimsky-Korsakov is based on a tale spun to enthrall a sultan	Scheherazade
+MUSIC	Each movement in this 1888 suite by Rimsky-Korsakov is based on a tale spun to enthrall a sultan	Scheherazade
 MUSIC	"The musical about this ""Two-Faced"" London killer is so popular it has its own website"	Dr. Jekyll and Mr. Hyde
 MUSIC	"Of ""Shogun"", ""King Rat"" or ""Tai-Pan"", the James Clavell novel that became a musical in 1990"	Shogun
 HISTORY	Names of the Soviet & American spacecraft that docked in space on July 17, 1975	Soyuz & Apollo
@@ -2661,7 +2661,7 @@ SCIENCE	Because they are never found in chemical compounds, the noble gases neon
 LITERATURE	The Gun Seller is a spy spoof by this comedic Brit who plays a dramatic doctor on TV	(Hugh) Laurie
 LITERATURE	"Morning, Noon & Night was a 1995 bestseller by this author of ""The Other Side of Midnight"""	Sidney Sheldon
 HISTORY	"In July 1962 this Soviet leader began building missile sites in Cuba; in October, the U.S. noticed them"	Khrushchev
-SCIENCE	HISTORY	This concept dates to a 1783 paper by John Michell, who theorized about a body with the sun's density & 500 times its diameter	a black hole
+SCIENCE	This concept dates to a 1783 paper by John Michell, who theorized about a body with the sun's density & 500 times its diameter	a black hole
 HISTORY	In 1958 Nasser was elected president of the United Arab Republic, Egypt's union with this country	Syria
 SCIENCE	75 miles long & 64 miles wide, the Mauna Loa volcano in this state is the world's largest active volcano	Hawaii
 SCIENCE	It's the theory that the universe was created in a cosmic explosion	the big bang theory
@@ -2828,7 +2828,7 @@ HISTORY	After General Cornwallis Surrendered at Yorktown, this American traitor 
 HISTORY	The Supreme Court's 7-2 decision in this slavery case helped bring on the Civil War	Dred Scott
 MUSIC	This musical that hit Broadway in 1991 is set partly in Bangkok & partly in Ho Chi Minh City	Miss Saigon
 MUSIC	"Bo Donaldson and The Heywoods: ""____ Don't Be A Hero"""	Billy
-GEOGRAPHY	MUSIC	Georgia college town that gave us R.E.M. & the B-52's	Athens (home of the Univ. of Georgia)
+GEOGRAPHY	Georgia college town that gave us R.E.M. & the B-52's	Athens (home of the Univ. of Georgia)
 GEOGRAPHY	Nova Scotia's Cobequid Bay is an arm of this much larger bay	the Bay of Fundy
 HISTORY	In 774 this Frank took the crown of Desiderius, the last king of the Lombards	Charlemagne
 LITERATURE	"Goodbye to All That is the autobiography of this ""I, Claudius"" author"	(Robert) Graves
@@ -3253,7 +3253,7 @@ MUSIC	"This ""Singing Brakeman"" was in the first group of performers inducted i
 MUSIC	It's the 2-word term for a country's official patriotic song	national anthem
 HISTORY	On May 22, 1906 they received a patent for an improved model of their airplane	the Wright brothers
 HISTORY	"Harry Truman ended it in the Army in 1948; the Supreme Court ended it in public schools in 1954"	Segregation
-SCIENCE	HISTORY	"Michael Faraday named oxygen as a ""permanent gas"" he couldn't turn into this state; Mike, just make it a lot colder"	liquid
+SCIENCE	"Michael Faraday named oxygen as a ""permanent gas"" he couldn't turn into this state; Mike, just make it a lot colder"	liquid
 LITERATURE	"Poem that contains the line ""All in the valley of death rode the six hundred"""	The Charge of the Light Brigade
 HISTORY	After 143 years, the Sacramento Union ceased publication in 1994, leaving this paper as the city's oldest	the Bee
 SCIENCE	This bottom part of the brain stem controls breathing & heartbeat	Medulla oblongata
@@ -3535,7 +3535,7 @@ LITERATURE	He claimed that as a Pinkerton detective, he had worked the Fatty Arb
 MUSIC	"Albums by this piano player born in New Orleans include the fittingly titled ""Remedies"""	Dr. John
 HISTORY	Peter the Great abolished the aristocratic Boyar class in this country	Russia
 LITERATURE	"She was 38 when her first works of fiction were published; ""Adam Bede"" came out 2 years later"	George Eliot
-SCIENCE	HISTORY	Using the ultramicroscope, Jean Perrin estimated the size of this as one hundred millionth of a centimerer	an atom
+SCIENCE	Using the ultramicroscope, Jean Perrin estimated the size of this as one hundred millionth of a centimerer	an atom
 SCIENCE	"Viki's samples from the locker room floor showed how the trichophyton fungi caused this ""sporty"" condition"	Athlete's foot
 LITERATURE	In this Ernest Hemingway story, an author awaits death while on an African safari	The Snows of Kilomanjaro
 LITERATURE	He wrote about fictional children Willie Mufferson, Joe Harper, & Sid Sawyer	Mark Twain
@@ -3941,7 +3941,7 @@ LITERATURE	From 1944 to 1946 he served as a naval historian in the south Pacific
 LITERATURE	"Madeline is one of ""twelve little girls in two straight lines"" who attend a school in this city"	Paris
 LITERATURE	Armor-clad knights face off in a game of baseball in an 1889 work by this author	Mark Twain
 SCIENCE	"In 1997 he ended his ""Odyssey"" series with ""3001: The Final Odyssey"""	Arthur Clarke
-HISTORY	MUSIC	"While writing for Billboard, legendary producer Jerry Wexler coined this phrase to replace ""race music"""	rhythm & blues
+MUSIC	"While writing for Billboard, legendary producer Jerry Wexler coined this phrase to replace ""race music"""	rhythm & blues
 SCIENCE	In 1909, after 7 years with the Swiss Patent Office, he became a professor at the University of Zurich	Albert Einstein
 SCIENCE	In the Northern Hemisphere, the summer one of these is on June 21 or 22, the longest day of the year	the solstice
 LITERATURE	"In ""The Janeites"", a story by Rudyard Kipling, a group of soldiers have a deep admiration for this author"	Jane Austen
@@ -3968,7 +3968,7 @@ GEOGRAPHY	"Sure, you studied presidents & state birds, but how the Beastie Boys 
 MUSIC	Of lento, adagio, or andante, the slowest tempo	lento
 HISTORY	Unaware of the Treaty of Ghent signed earlier, the British attacked this Louisiana city on Jan. 8, 1815	New Orleans
 MUSIC	"Forget ""Cats""; the musical of this Orwell book would feature jackbooted dancing pigs"	Animal Farm
-SCIENCE	HISTORY	In 1672 Christiaan Huygens sketched its southern ice cap	Mars
+SCIENCE	In 1672 Christiaan Huygens sketched its southern ice cap	Mars
 LITERATURE	"His first novel, ""The Snake's Pass"", was published in 1890, 7 years before ""Dracula"""	Bram Stoker
 HISTORY	The plot for this early talkie paralleled the story of Al Jolson's own life	The Jazz Singer
 HISTORY	"In 1941 Abe Reles, an informer on this homicidal ""corporation"", went down in history--6 stories straight down"	Murder, Inc.
@@ -4191,7 +4191,7 @@ LITERATURE	"Tennyson's ""The Lotos-Eaters"" is based on an episode from this wor
 LITERATURE	This title character was inspired by a girl who'd had her appendix out in a French hospital run by nuns	Madeline
 SCIENCE	The epicenter is the point on the Earth's surface directly above where one of these occurs	Earthquake
 MUSIC	"The English name of this woodwind is a corruption of its French name which means ""high wood"""	the oboe
-GEOGRAPHY	MUSIC	City mentioned in the title of the TV show whose theme is heard here:	Beverly Hills, 90210
+GEOGRAPHY	City mentioned in the title of the TV show whose theme is heard here:	Beverly Hills, 90210
 GEOGRAPHY	This small island nation in the North Atlantic has more than 100 volcanoes	Iceland
 HISTORY	This country's 1954-1962 struggle for independence caused a million Europeans to leave it	Algeria
 SCIENCE	When swinging a rock on a string in a circle, this force pulls the rock inward	Centrifugal
@@ -4476,7 +4476,7 @@ GEOGRAPHY	Winding through Idaho, the Salmon River is the largest tributary of th
 SCIENCE	Science magazine says these rodents' boom-&-bust population cycles are due to predators, not mass suicide	lemmings
 HISTORY	England's Richard III was the last king of this ruling house	York
 GEOGRAPHY	Rock out on this Australian landmark	Ayers Rock (Uluru)
-LITERATURE	MUSIC	"This ""Pomp & Circumstance"" composer named an overture for the 14 C. author Froissart, whom he admired"	Edward Elgar
+MUSIC	"This ""Pomp & Circumstance"" composer named an overture for the 14 C. author Froissart, whom he admired"	Edward Elgar
 SCIENCE	The oldest way to refine oil, this process heats the oil until its component parts vaporize	Distilling/fractional distillation
 GEOGRAPHY	Peru's highest peaks, Huascaran & Yerupaja, lie in this range	Andes
 HISTORY	After Virginia, more Civil War battles were fought in this state than in any other	Tennessee
@@ -4537,7 +4537,7 @@ LITERATURE	"A poem of hers says, ""I love thee with the breath, smiles, tears, o
 MUSIC	"One of the 3 Bs, he wrote ""Hungarian Dances"" while Liszt wrote ""Hungarian Rhapsodies"""	Johannes Brahms
 SCIENCE	Pioneering computer programmer Grace Murray Hopper coined this term for a mysterious computer problem	bug
 GEOGRAPHY	This tiny state's southernmost point lies on Block Island in the Atlantic, about 10 miles from the mainland	Rhode Island
-GEOGRAPHY	MUSIC	"This ""house in New Orleans"" has ""been the ruin of many a poor boy"""	The House of the Rising Sun
+MUSIC	"This ""house in New Orleans"" has ""been the ruin of many a poor boy"""	The House of the Rising Sun
 MUSIC	According to the title of a song by Mitch Ryder & the Detroit Wheels, it's what the Devil had on	a blue dress
 MUSIC	"In 1928 this American wrote his tone poem ""An American in Paris"""	George Gershwin
 HISTORY	Privatization in the 1990s gave power to the wealthy businessmen called these, from a term for government by the few	oligarchs
@@ -5138,7 +5138,7 @@ LITERATURE	In 1594 he took a job as a tax collector in Andalusia	Miguel de Cerva
 MUSIC	In this show, the hero sells his soul to the devil so the Washington Senators can win the Pennant	Damn Yankees
 SCIENCE	Anthropologist Francis Galton notes the uniqueness of these for every individual, a help to police	fingerprints
 LITERATURE	Bank official Joseph K. is on the defensive as the accused in this Kafka work	The Trial
-SCIENCE	HISTORY	In the 1780s Gaspard Monge was the first to do this to a substance that's normally a gas, sulfur dioxide	liquify it
+SCIENCE	In the 1780s Gaspard Monge was the first to do this to a substance that's normally a gas, sulfur dioxide	liquify it
 LITERATURE	"Mowgli's song ""Against People"" appears in this author's ""Second Jungle Book"""	Rudyard Kipling
 LITERATURE	In this Natalie Babbitt book, the Tuck family tries to convince Winnie that living forever is a curse	Tuck Everlasting
 LITERATURE	"She once said ""The Fountainhead"" was ""only an overture"" to her ""Atlas Shrugged"""	Ayn Rand
@@ -5411,7 +5411,7 @@ LITERATURE	"The young narrator of ""Treasure Island"""	Jim Hawkins
 HISTORY	This 2-wheeled military vehicle was introduced to Egypt from Asia in the 2nd millennium B.C.	Chariot
 GEOGRAPHY	"D.H. Lawrence visited this country in 1922 & set his 1923 novel ""Kangaroo"" there"	Australia
 LITERATURE	"According to both Burns & Steinbeck, their best laid schemes ""gang aft a-gley"""	mice and men
-SCIENCE	HISTORY	Poet Geoffrey Chaucer wrote a treatise on this scientific instrument later replaced by the sextant	the astrolabe
+SCIENCE	Poet Geoffrey Chaucer wrote a treatise on this scientific instrument later replaced by the sextant	the astrolabe
 SCIENCE	When astronomers got a close-up look at this object in 1985-86, its nucleus looked like a big potato	Halley's comet
 HISTORY	Rich in democracy, this country held some of Central America's first free elections in the 1890s	Costa Rica
 LITERATURE	"In his 1940 classic Western novel, Walter Van Tilburg Clark sets his ""Incident"" in this valley"	the Ox-Bow
@@ -5492,7 +5492,7 @@ MUSIC	In 1990 Jukebox named this Randy Travis cover of a Brook Benton hit the Co
 MUSIC	"In 1998 this ""colorful"" costume musical based on Baroness Orczy's novel received 3 Tony nominations"	The Scarlet Pimpernel
 HISTORY	In May 1844 he sent a telegraph message using the code he'd also invented	Morse
 MUSIC	"Christina Aguilera sang ""You are"" this ""no matter what they say, words can't bring you down"""	beautiful
-SCIENCE	HISTORY	In 1797 Smithson Tennant showed that charcoal has the same composition as this gem	a diamond
+SCIENCE	In 1797 Smithson Tennant showed that charcoal has the same composition as this gem	a diamond
 MUSIC	"It's the ""Fab"" group heard here: (""I'll Follow the Sun"")"	Beatles
 GEOGRAPHY	This European city was the site of the 1952 winter Olympics	Oslo
 HISTORY	"Encyclopedia Americana says this Medici bore King Henry IV ""six children and much ill will"""	Marie de' Medici
@@ -5888,7 +5888,7 @@ MUSIC	"Come Back Home is the first single from his 2003 album ""Day I Forgot"""	
 MUSIC	"Fagin & the gang stop picking people's pockets & drop money in instead; what a ""Twist""!"	Oliver
 SCIENCE	Botanically, it's the part of the flowering plant that holds the seeds, so it includes acorns	the nut (or the fruit)
 MUSIC	Running about 8 1/2 minutes on the radio, this Don McLean hit is the longest song ever to hit No. 1	American Pie
-GEOGRAPHY	MUSIC	"Punk precursors The MC5 were named for this ""Motor City"", their home base"	Detroit
+MUSIC	"Punk precursors The MC5 were named for this ""Motor City"", their home base"	Detroit
 LITERATURE	In 1965 Lillian Hellman re-issued 5 of his detective novels	Dashiell Hammett
 HISTORY	It was the last battle in which George Armstrong Custer saw action	Little Big Horn
 LITERATURE	"The first line of his 1951 novel mentions a ""lousy childhood ... and all that David Copperfield kind of crap"""	J.D. Salinger
@@ -6026,7 +6026,7 @@ HISTORY	Benedict XVI succeeded this man as head of the Roman Catholic church in 
 GEOGRAPHY	Do you know the way to this 1968 Top 10 place	San Jose
 MUSIC	Gwen Verdon kicked up her heels as Claudine in this classic Cole Porter musical named for a dance	Can-Can
 MUSIC	"Let's Groove with this R&B group that had a hit with ""Shining Star"""	Earth, Wind & Fire
-HISTORY	GEOGRAPHY	In 1999, 400 years after establishing a permanent settlement there, Portugal returned this overseas territory to China	Macao
+HISTORY	In 1999, 400 years after establishing a permanent settlement there, Portugal returned this overseas territory to China	Macao
 HISTORY	Biblical Palestine was divided into Israel & this kingdom named for one of Jacob's sons	Judah
 HISTORY	"This event was inspired by a legend mentioned in Plutarch's ""On the Glory of Athens"""	the marathon
 MUSIC	"Of the Orlons, the Nylons or the Polyesters, the group that gave us ""The Wah Watusi"""	Orlons
@@ -6455,7 +6455,7 @@ MUSIC	This Spaniard who transcribed Bach for the guitar gave his first public re
 GEOGRAPHY	Only Russia & this former Soviet republic stretch from China to Europe	Kazakhstan
 HISTORY	Denmark Vesey, brought to Charleston in 1783, planned one of the USA's first of these types of revolt in 1822	a slave revolt
 MUSIC	This orchestral instrument is an octave higher than an ordinary flute	Piccolo
-SCIENCE	HISTORY	Announced by Ole Romer in 1676, the first measurement of this was 140,000 miles per second	the speed of light
+SCIENCE	Announced by Ole Romer in 1676, the first measurement of this was 140,000 miles per second	the speed of light
 SCIENCE	Heisenberg's uncertainty principle says you can figure out a particle's momentum or this, not both	its position
 LITERATURE	"Try to un""earth"" a copy of ""Imperial Woman"", this American woman's 1956 novel about the last empress of China"	Pearl S. Buck
 GEOGRAPHY	An autopiste, or superhighway, connects this Venezuelan capital with the port of La Guaira	Caracas
@@ -6487,7 +6487,7 @@ HISTORY	In 338 B.C., under this king, Macedonia defeated the Greeks in the Battl
 MUSIC	"A French term for a ""rocking chair"", berceuse is also a synonym for this type of piece often sung softly while rocking"	a lullaby
 HISTORY	For a few years in the 1890s, this future prime minister was heir presumptive to the Dukedom of Marlborough	(Winston) Churchill
 HISTORY	If a 19th century woman wore a poke, she had one of these with a projectng brim	a hat (a bonnet)
-LITERATURE	MUSIC	"Edgar Stillman Kelley's symphony ""Gulliver"" was inspired by a novel by this satirist"	Jonathan Swift
+MUSIC	"Edgar Stillman Kelley's symphony ""Gulliver"" was inspired by a novel by this satirist"	Jonathan Swift
 HISTORY	Once the Turks took Eracleon in 1669 after a 20-year siege, this Greek island soon fell	Crete
 HISTORY	Mexicans under Gen. Zaragoza won a great victory on this date in 1862, celebrated with a fiesta on L.A.'s Olvera Street	the fifth of May (Cinco de Mayo)
 GEOGRAPHY	The U.S.A.'s strongest surface wind, 231 MPH, was recorded on this New Hampshire mountain	Mount Washington
@@ -6699,7 +6699,7 @@ LITERATURE	"In 1856 he & his 2 editors were brought to trial for publishing a mo
 LITERATURE	"Published in 1724, his last major work of fiction was ""Roxana"", about a courtesan, not a castaway"	Daniel Defoe
 MUSIC	"When this TV star played Sweeney Todd in 1999, one critic dubbed him ""'Frasier' with a razor"""	Kelsey Grammer
 HISTORY	"Referred to as ""Black Tuesday"", it's the date in 1929 that saw the final collapse of the stock market"	October 29th
-SCIENCE	HISTORY	"The unit of this in electricity is named for Georg Ohm; it's also what ohm ran into when he published his ideas"	resistance
+SCIENCE	"The unit of this in electricity is named for Georg Ohm; it's also what ohm ran into when he published his ideas"	resistance
 MUSIC	Marley's high-arcing tennis shots	Bob's lobs
 HISTORY	This actress played Jessica Fletcher, a writer in Cabot Cove, Maine who wrote & solved mysteries	Angela Lansbury
 LITERATURE	"Adam & Eve confront the big man himself & discuss this 1667 Milton poem on ""I Can't Believe You Evicted Me!"""	Paradise Lost
@@ -7489,7 +7489,7 @@ SCIENCE	It's the main branch of engineering that studies the mechanical properti
 MUSIC	At age 6 this classical & jazz trumpeter was given his 1st horn by Al Hirt	Wynton Marsalis
 LITERATURE	"Katherine Anne Porter could tell you the title of the 1494 German poem ""Das Narrenschiff"" means this"	Ship of Fools
 LITERATURE	"It's the English title of Gabriel Garcia Marquez' ""Cien Anos de Soledad"""	One Hundred Years of Solitude
-LITERATURE	MUSIC	"Donizetti wrote an opera based on this British lord's poem ""Parisina"""	Lord Byron
+MUSIC	"Donizetti wrote an opera based on this British lord's poem ""Parisina"""	Lord Byron
 SCIENCE	A recent discovery reveals that the oldest mammals, large & small, average about 1.5 billion of these per lifetime	a heartbeat
 HISTORY	"In 1972 she ran for president on the slogan ""Unbought and unbossed"""	Shirley Chisholm
 SCIENCE	Sn is the chemical symbol for this	tin
@@ -7523,7 +7523,7 @@ LITERATURE	"Princess Di's step-grandmother, this ""Queen of Romance"" passed awa
 MUSIC	"This ""Diana"" singer wrote Tom Jones' 1971 hit ""She's A Lady"""	Paul Anka
 LITERATURE	Terms of Endearment was his sixth novel with a Texas setting	[Larry] McMurtry
 HISTORY	Gantry, a musical based on a novel by this man, opened February 14, 1970 & closed February 14, 1970	Sinclair Lewis
-LITERATURE	MUSIC	"Franz Liszt's symphony based on this work includes the movements ""Inferno"" & ""Purgatorio"""	The Divine Comedy
+MUSIC	"Franz Liszt's symphony based on this work includes the movements ""Inferno"" & ""Purgatorio"""	The Divine Comedy
 HISTORY	Lovers?  Oh yes, there was Orlov, Potemkin & Zubov, but 34 years as Russian Empress taught her love came with a price	Catherine the Great
 SCIENCE	Considered 1st universal genius, this student of Plato believed goats breathed through their ears	Aristotle
 HISTORY	1959: NASA publicly introduces Messrs. Glenn, Shepard & the rest of this program's 7 astronauts	Mercury
@@ -7822,7 +7822,7 @@ LITERATURE	This hard-drinking Welshman was residing in NYC's Chelsea Hotel when 
 MUSIC	The treble one is also called the G one	Clef
 HISTORY	Harlem had one of these literary & cultural rebirths in the '20s & '30s	renaissance
 SCIENCE	The return stroke for this weather event takes about 100 microseconds & its temperature is around 50,000 degrees	lightning
-HISTORY	MUSIC	"She co-wrote ""The Loco-Motion"" in the Brill Building on Broadway"	Carole King
+HISTORY	"She co-wrote ""The Loco-Motion"" in the Brill Building on Broadway"	Carole King
 MUSIC	A cylindrical drum called the okedo is used in the kabuki theatre of this country	Japan
 LITERATURE	"This Albert Camus novel begins with the discovery of a dead rat outside Dr. Bernard Rieux' door; more dead rats follow"	The Plague
 HISTORY	Henry Laurens, Thomas Mifflin & Richard Henry Lee were presidents of this body that only lasted for about 15 years	the Continental Congress
@@ -7855,7 +7855,7 @@ HISTORY	Czars Nicholas I & Nicholas II married German princesses who used this f
 HISTORY	"His father told him to ""Seek out a kingdom worthy of thyself, for Macedonia is too little for thee"""	Alexander the Great
 GEOGRAPHY	The borders of 5 Utah counties lie within this lake	The Great Salt Lake
 GEOGRAPHY	This country's Chatham Islands are inhabited primarily by Maoris	New Zealand
-HISTORY	MUSIC	The Who performed this work at the Metropolitan Opera House in Lincoln Center in 1970	Tommy
+HISTORY	The Who performed this work at the Metropolitan Opera House in Lincoln Center in 1970	Tommy
 LITERATURE	In 1989 both the hardcover & paperback editions of his “Cardinal of the Kremlin” were bestsellers	Tom Clancy
 LITERATURE	In January 1999 this author issued a public statement reminding the world the third millennium really begins Jan. 1, 2001	Arthur C. Clarke
 HISTORY	"In 1776 she took over the family upholstering business; she also made flags for the Navy of Pennsylvania"	Betsy Ross
@@ -8527,7 +8527,7 @@ HISTORY	The main natural cause of famine, it struck the Sahel region from 1968 t
 GEOGRAPHY	Except for its coast, this sultanate is completely surrounded by Malaysia	Brunei
 HISTORY	General Alfredo Stroessner ruled this South American country with an iron hand for 35 years, 1954-1989	Paraguay
 LITERATURE	"Part of this Robert Louis Stevenson tale takes place in a sinister house called the ""Laboratory"""	Strange Case of Dr Jekyll and Mr Hyde
-SCIENCE	HISTORY	An experiment with mirrors on Mt. Wilson & Mt. San Antonio, Calif. determined what became an accepted figure for this	the speed of light
+SCIENCE	An experiment with mirrors on Mt. Wilson & Mt. San Antonio, Calif. determined what became an accepted figure for this	the speed of light
 LITERATURE	"W.B. Yeats' love Maud Gonne was a founder of this Irish party whose name means ""We Ourselves"""	Sinn Fein
 GEOGRAPHY	It's the only U.S. state lying on the Tropic of Cancer	Hawaii
 GEOGRAPHY	"Xerxes built a bridge of boats across it to invade Greece; Leander could have walked"	Hellespont
@@ -9101,7 +9101,7 @@ SCIENCE	It's the more common name for sodium chloride	Salt
 HISTORY	In 1910 Korea was annexed by this country that held it for the next 35 years	Japan
 SCIENCE	"Nutation is the bobbing motion of a spinning rigid body; this toy is the classic example"	a top
 LITERATURE	Mr. Kurtz is an agent of a Belgian Congo trading station in this Joseph Conrad novella	Heart Of Darkness
-HISTORY	MUSIC	"Dvorak's ""New World Symphony"" debuted in this venue in 1893: the Beatles played there in 1964"	Carnegie Hall
+MUSIC	"Dvorak's ""New World Symphony"" debuted in this venue in 1893: the Beatles played there in 1964"	Carnegie Hall
 LITERATURE	Rabbit At Rest	John Updike
 MUSIC	The Music of the Night	Phantom of the Opera
 HISTORY	This 16th century doctor said he gazed into a bowl of water on a tripod to divine his prophecies	Nostradamus
@@ -9330,7 +9330,7 @@ MUSIC	"This small woodwind is known for its high pitch, & its name is Italian fo
 SCIENCE	"From the Latin for ""body"", it's a free-moving cell such as an erythrocyte or leukocyte"	a corpuscle
 HISTORY	On December 6, 1847 this future president took his seat in the U.S. House of Representatives for Illinois	Abraham Lincoln
 HISTORY	Between the 800s and 1400s the Khmer had a Hindu-Buddhist kingdom with its capital in what is now this country	Cambodia
-SCIENCE	HISTORY	"In August 1971 on the Moon's surface, an astronaut repeated a famous experiment & declared that this man ""was correct"""	Galileo
+SCIENCE	"In August 1971 on the Moon's surface, an astronaut repeated a famous experiment & declared that this man ""was correct"""	Galileo
 LITERATURE	"In the mid-1960s this co-founder of Ms. magazine wrote for the TV series ""That Was the Week that Was"""	Gloria Steinem
 GEOGRAPHY	"In Hawaii, Mauna Kea means ""white mountain"" & this volcano's name means ""long mountain"""	Mauna Loa
 SCIENCE	In February 2010 the Times reported on the decoding of the genomes of 5 South Africans, including this Bantu clergyman	Desmond Tutu
