@@ -1,49 +1,85 @@
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
-from nltk.tokenize import sent_tokenize, word_tokenize
-import random
+from nltk.tokenize import sent_tokenize
+import sys
 
-
+from nltk.stem.porter import *
+from nltk.stem import WordNetLemmatizer
+from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer, TfidfVectorizer
+from sklearn import svm
+from sklearn.svm import SVC
 
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('wordnet')
 
-sentences={}
-data=[]
-
-with open('dev_clean.txt','r',encoding='UTF8') as file:
-  while True:
-    line=file.readline().replace("\n","").replace("\"","").replace(",","").split("\t")
-    #print(line)
-    if (line==[""]):
-      break
-    label, sentence, answer = line[0], line[1], line[2]
-    """ ps = PorterStemmer()
-    words = word_tokenize(sentence)
-    print(words)
-    steming = [ps.stem(word) for word in words] 
-
-    filtered_words = [word for word in steming if word not in stopwords.words('english')]
-    print(filtered_words) """
-    data+=([(sentence, label),])
   
-  tokens=set(word.lower() for words in data for word in word_tokenize(words[0]))
-  train=[({word: (word in word_tokenize(x[0])) for word in tokens}, x[1]) for x in data] 
-  print(tokens)
-  print(train)
+def parser(fileName):
+  sentences=[]
+  data=[]
+  labels =[]
+
+  with open(fileName,'r',encoding='UTF8') as file:
+    while True:
+      line=file.readline().replace("\n","").replace("\"","").replace(",","").split("\t")
+      if (line==[""]):
+        break
+      labels.append(line[0])
+      sentences.append(line[1:])
+  return labels, sentences
+
+def processing(sentences):
+  questionsList = []
+  stemmer = PorterStemmer()
+  lemmatizer = WordNetLemmatizer()
+
+  for i in sentences:
+    tokens = word_tokenize(str(i))
+
+    minusculo = [word.lower() for word in tokens]
+
+    stem = [stemmer.stem(word) for word in minusculo]
+
+    lemma = [lemmatizer.lemmatize(word) for word in filtered_words]
+
+    questions = ' '.join(lemma)
+
+    questionsList.append(questions)
+  
+  return questionsList
+
+# process input files
+
+train_file = sys.argv[4]
+test_file = sys.argv[2]
+
+labels, questions = parser(train_file)
+trainProcessed = processing(questions)
+
+labelsTest, questionsTest = parser(test_file)
+testProcessed = processing(questionsTest)
+
+#support vector machines
+
+countVectorizer = CountVectorizer()
 
 
-  random.shuffle(train)
+#fit transform in training set and transform for test set
+trainVector = countVectorizer.fit_transform(trainProcessed)
+testVector  = countVectorizer.transform(testProcessed)
+
+tfIdfTransformer = TfidfTransformer()
+train_tfidf = tfIdfTransformer.fit_transform(trainVector)
+test_tfidf  = tfIdfTransformer.transform(testVector)
+
+classifier = svm.SVC()
+classifier.fit(train_tfidf, labels)
+
+labels_predict = classifier.predict(test_tfidf)
 
 
-  train_x=train[0:400]
-  test_x=train[400:500] 
-  model = nltk.NaiveBayesClassifier.train(train_x)
-  model.show_most_informative_features()
-
-  acc=nltk.classify.accuracy(model, test_x)
-  print("Accuracy:", acc)
-
-  #sentences[str([line[1],line[2]])] = line[0]
+#output predictions
+for prediction in labels_predict:
+    print(prediction)
