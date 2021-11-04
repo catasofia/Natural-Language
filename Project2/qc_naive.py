@@ -40,7 +40,7 @@ def processing(sentences):
 
     lemma = [lemmatizer.lemmatize(word) for word in stem]
 
-    questionsList.append(' '.join(tokens))
+    questionsList.append(' '.join(lemma))
   
   return questionsList
 
@@ -50,36 +50,15 @@ train_file = sys.argv[4]
 labels, questions = parser(train_file)
 questionsProcessed = processing(questions)
 
+print(questionsProcessed)
+
 labelsTest, questionsTest = parser(test_file)
 testProcessed = processing(questionsTest)
 
-cv = CountVectorizer()
-
-X = cv.fit_transform(questionsProcessed).toarray()
-y = labels
-
-X_train, X_test, y_train, y_test = train_test_split(
-           X, labels, test_size = 0.1, random_state = 0)
-
 classifier = GaussianNB();
-classifier.fit(X_train, y_train)
+classifier.fit(questionsProcessed, labels)
 
 y_pred = classifier.predict(testProcessed)
 
-
-for line in y_pred:
-    aux, trash = line.split('\n')
-    y_res.append(aux)
-
-
-for line in labelsTest:
-    aux, trash = line.split('\n')
-    y_label.append(aux)
-
-print('\n'.join('\t'.join(x) for x in zip(y_label,y_res) if x[0] != x[1]))
-
-# Model Accuracy: how often is the classifier correct?
-#print(y_res)
-#print('-')
-#print(y_label)
-print("Accuracy:",metrics.accuracy_score(y_label, y_res) * 100 , "%")
+for i in y_pred:
+  print(i)
