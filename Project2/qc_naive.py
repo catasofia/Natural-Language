@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer, TfidfVectorizer
 from sklearn.svm import SVC
 
-from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import MultinomialNB, GaussianNB, CategoricalNB
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
  
@@ -21,9 +21,10 @@ def parser(fileName):
 
   with open(fileName,'r',encoding='UTF8') as file:
     for line in file:
-      line=line.replace("\n","").replace("\"","").replace(",","").split("\t")
+      line=line.replace("\n",'').replace("\"",'').replace(",",'').split("\t")
       labels.append(line[0])
-      sentences.append(line[1:])
+      sentences.append(line[1:3])
+
   return labels, sentences
 
 def processing(sentences):
@@ -55,31 +56,14 @@ testProcessed = processing(questionsTest)
 
 cv = CountVectorizer()
 
-X = cv.fit_transform(questionsProcessed).toarray()
-y = labels
+train_set = cv.fit_transform(questionsProcessed).toarray()
+test_set = cv.transform(testProcessed).toarray()
 
-X_train, X_test, y_train, y_test = train_test_split(
-           X, labels, test_size = 0.1, random_state = 0)
+classifier = MultinomialNB();
 
-classifier = GaussianNB();
-classifier.fit(X_train, y_train)
+classifier.fit(train_set, labels)
 
-y_pred = classifier.predict(testProcessed)
+y_pred = classifier.predict(test_set)
 
-
-for line in y_pred:
-    aux, trash = line.split('\n')
-    y_res.append(aux)
-
-
-for line in labelsTest:
-    aux, trash = line.split('\n')
-    y_label.append(aux)
-
-print('\n'.join('\t'.join(x) for x in zip(y_label,y_res) if x[0] != x[1]))
-
-# Model Accuracy: how often is the classifier correct?
-#print(y_res)
-#print('-')
-#print(y_label)
-print("Accuracy:",metrics.accuracy_score(y_label, y_res) * 100 , "%")
+for i in y_pred:
+  print(i)
