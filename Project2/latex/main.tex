@@ -8,20 +8,28 @@
 % Replace `letterpaper' with`a4paper' for UK/EU standard size
 \usepackage[a4paper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.5cm]{geometry}
 \usepackage{indentfirst}
+\usepackage{multirow}
 \setlength{\parindent}{20pt}
+\usepackage{dblfnote}
+\usepackage{tablefootnote}
+
 % Useful packages
 \usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage[colorlinks=true, allcolors=cyan]{hyperref}
+\usepackage{multicol}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
 
 \title{Mini Project 2 – Question Classification}
-\author{Catarina Sousa 93695, Nelson Trindade 93743}
+\author{Catarina Sousa 93695 and Nelson Trindade 93743}
 \date{November 10, 2021}
 
 \begin{document}
 \maketitle
 
+\begin{multicols}{2}
+
 \section{Models}
+
 Our first model is a machine learning algorithm (Naïve Bayes). We start by parsing the input files to have labels and questions separated. We then pre-process the questions by \emph{tokenizing}, \emph{lowing} the words, \emph{stemming}, and \emph{lemmatizing}. At the end of our pre-process, we have a list with all the sentences. After processing, we use \emph{Count Vectorizer} to \emph{fit\_transform} our train set so that our model learns the mean and variance of the features of our set. We then transform our test set so that the model uses the same mean and variance that was calculated from the train set to transform the test set. We then use a \emph{Multinomial} Naïve Bayes distribution since it is suitable for the classification of discrete features.
 
 Our second model is a SVM\footnote[1]{Support Vector Machine approach}, with TF-IDF\footnote[2]{Term Frequency–Inverse Document Frequency}. We parse the train and dev files just as we do in our first model, but then our pre-process is just a \emph{tokenizer}. We use the \emph{Count Vectorizer} to \emph{fit\_transform}\footnote[3]{Learn the vocabulary dictionary and return document-term matrix} our train set and \emph{transform}\footnote[4]{Transform the document to document-term matrix} our test set. After this, we use \emph{tfidfTransformer}\footnote[5]{Transform a count matrix to a normalized tf-idf representation} to \emph{fit\_transform} the training matrix and transform the testing matrix obtained by the \emph{Count Vectorizer}. These functions transform the count matrix into a normalized \emph{tf-idf} representation. We then use a Support Vector Machine to predict the test labels.
@@ -31,20 +39,7 @@ In the Naïve Bayes approach, we tested different distributions until we conclud
 
 In the Support Vector Machine approach, we also tested with different pre-processing techniques until we realized that using only the \emph{tokenizer} was the best approach. We first didn’t use the \emph{tfidfTransformer} functions and obtained an accuracy of 84\%. We started thinking about how we could improve our model and we decided that we wanted to use \emph{tf-idf}, since it reflects how important a word is in a corpus. We concluded that with \emph{tf-idf} we could get better results and that was what happened, we got 88.4\%.
 
-The \emph{tokenizer}, the \emph{stemmer} and the \emph{lemmatizer} that we use are from the \emph{nltk} library, while the \emph{MultinomialNB}, \emph{Count Vectorizer} and \emph{tfidfTransformer} are from the sklearn library.
-
-To get the accuracy from our models, we compared the predicted labels with the correct labels using the \emph{sklearn.metrics.accuracy\_score()}.
-\newpage
-\section{Results}
-\begin{table}[!htbp]
-    \centering
-    \begin{tabular}{r|c|c|c|c|c|c}
-    MODEL/LABEL & GEOGRAPHY & MUSIC & LITERATURE & HISTORY & SCIENCE & GENERAL \\\hline
-    Naïve Bayes & 42/50 & 42/50 & 42/50 & 42/50 & 42/50 & 86.8\% \\
-    SVM + TF-IDF & 42/50 & 42/50 & 42/50 & 42/50 & 42/50 & 88.4\%
-    \end{tabular}
-    \caption{\label{tab:widgets}Results obtained in the tests performed.}
-\end{table}
+The \emph{tokenizer}, the \emph{stemmer} and the \emph{lemmatizer} that we use are from the \emph{nltk} library, while the \emph{MultinomialNB}, \emph{Count Vectorizer} and \emph{tfidfTransformer} are from the sklearn library. To get the accuracy from our models, we compared the predicted labels with the correct labels using the \emph{sklearn.metrics.accuracy\_score()}.
 
 \section{Error analysis}
 
@@ -57,17 +52,60 @@ By analyzing the errors, we realized that our model failed some sentences becaus
 In our Naïve Bayes approach, we started with the \emph{Gaussian} technique, but we didn't get the best accuracy. This result is understandable, since this distribution is appropriate for continuous data. 
 By analyzing the available distributions, we realized that the \emph{Multinomial} one was the best, since it is appropriate for discrete features.
 
-
 \section{Future Work}
 
 If we had more time to conclude our project, we would like to improve the pre-processing by implementing part-of-speech tagging, which would improve lemmatization’s results.
 
 Although we aren’t allowed to use neural networks, if we had more time, we would like to test it to see which accuracy we would obtain.
 
-\section{Bibliography}
+\end{multicols}
 
+\section{Results}
+\begin{table}[!htbp]
+    \centering
+    \begin{tabular}{r|c|c|c|c|c|c|c}
+    MODEL & MEASURE & M\tablefootnote{Music} & H\tablefootnote{History} & S\tablefootnote{Science} & G\tablefootnote{Geography} & L\tablefootnote{Literature} & TOTAL \\\hline
+    \multirow{3}{*}{Naïve Bayes} & Precision & 0.94 & 0.87 & 0.86 & 0.82 & 0.89 & \multirow{3}{*}{86.8\%}\\
+ & Recall & 0.88 & 0.88 & 0.86 & 0.87 & 0.82\\
+ & F1-Score & 0.91 & 0.88 & 0.86 & 0.85 & 0.86\\\hline
+\multirow{3}{*}{SVM + TF-IDF} & Precision & 0.93 & 0.94 & 0.94 & 0.78 & 0.91 & \multirow{3}{*}{88.4\%}\\
+ & Recall & 0.86 & 0.90 & 0.88 & 0.91 & 0.80\\
+ & F1-Score & 0.89 & 0.92 & 0.91 & 0.84 & 0.85\\\hline
+    \end{tabular}
+    \caption{Precision, Recal and F1-Score per label.}
+\end{table}
+
+\begin{table}[!htb]
+    \begin{minipage}{.5\linewidth}
+      \centering
+        \begin{tabular}{c|c|c}
+           LABEL & PREDICTED & CORRECT\\\hline
+Music & 103 & 84\\
+History & 162 & 156\\
+Science & 82 & 76\\
+Geography & 35 & 32\\
+Literature & 118 & 111\\\hline
+        \end{tabular}
+        \caption{SVM + TF-IDF Model}
+    \end{minipage}%
+    \begin{minipage}{.5\linewidth}
+      \centering
+        \begin{tabular}{c|c|c}
+                LABEL & PREDICTED & CORRECT\\\hline
+ Music & 103 & 84\\
+History & 162 & 156\\
+Science & 82 & 76\\
+Geography & 35 & 32\\
+Literature & 118 & 111\\\hline
+        \end{tabular}
+        \caption{Naïve Bayes Model}
+    \end{minipage} 
+\end{table}
+
+\section{Bibliography}
 \begin{itemize}
-\item Fenix
+\item and like this.
+\item and like this.
 \item and like this.
 \end{itemize}
 
