@@ -30,7 +30,7 @@
 
 \section{Models}
 
-Our first model is a machine learning algorithm (Naïve Bayes). We start by parsing the input files to have labels and questions separated. We then pre-process the questions by \emph{tokenizing}, \emph{lowing} the words, \emph{stemming}, and \emph{lemmatizing}. At the end of our pre-process, we have a list with all the sentences. After processing, we use \emph{Count Vectorizer} to \emph{fit\_transform} our train set so that our model learns the mean and variance of the features of our set. We then transform our test set so that the model uses the same mean and variance that was calculated from the train set to transform the test set. We then use a \emph{Multinomial} Naïve Bayes distribution since it is suitable for the classification of discrete features.
+Our first model (the baseline) is a machine learning algorithm (Naïve Bayes). We start by parsing the input files to have labels and questions separated. We then pre-process the questions by \emph{tokenizing}, \emph{lowing} the words, \emph{stemming}, and \emph{lemmatizing}. At the end of our pre-process, we have a list with all the sentences. After processing, we use \emph{Count Vectorizer} to \emph{fit\_transform} our train set so that our model learns the mean and variance of the features of our set. We then transform our test set so that the model uses the same mean and variance that was calculated from the train set to transform the test set. We then use a \emph{Multinomial} Naïve Bayes distribution since it is suitable for the classification of discrete features.
 
 Our second model is a SVM\footnote[1]{Support Vector Machine approach}, with TF-IDF\footnote[2]{Term Frequency–Inverse Document Frequency}. We parse the train and dev files just as we do in our first model, but then our pre-process is just a \emph{tokenizer}. We use the \emph{Count Vectorizer} to \emph{fit\_transform}\footnote[3]{Learn the vocabulary dictionary and return document-term matrix} our train set and \emph{transform}\footnote[4]{Transform the document to document-term matrix} our test set. After this, we use \emph{tfidfTransformer}\footnote[5]{Transform a count matrix to a normalized tf-idf representation} to \emph{fit\_transform} the training matrix and transform the testing matrix obtained by the \emph{Count Vectorizer}. These functions transform the count matrix into a normalized \emph{tf-idf} representation. We then use a Support Vector Machine to predict the test labels.
 
@@ -39,7 +39,7 @@ In the Naïve Bayes approach, we tested different distributions until we conclud
 
 In the Support Vector Machine approach, we also tested with different pre-processing techniques until we realized that using only the \emph{tokenizer} was the best approach. We first didn’t use the \emph{tfidfTransformer} functions and obtained an accuracy of 84\%. We started thinking about how we could improve our model and we decided that we wanted to use \emph{tf-idf}, since it reflects how important a word is in a corpus. We concluded that with \emph{tf-idf} we could get better results and that was what happened, we got 88.4\%.
 
-The \emph{tokenizer}, the \emph{stemmer} and the \emph{lemmatizer} that we use are from the \emph{nltk} library, while the \emph{MultinomialNB}, \emph{Count Vectorizer} and \emph{tfidfTransformer} are from the sklearn library. To get the accuracy from our models, we compared the predicted labels with the correct labels using the \emph{sklearn.metrics.accuracy\_score()}.
+The \emph{tokenizer}, the \emph{stemmer} and the \emph{lemmatizer} that we use are from the \emph{nltk} library, while the \emph{MultinomialNB}, \emph{Count Vectorizer} and \emph{tfidfTransformer} are from the sklearn library. To get the accuracy from our models, we compared the predicted labels with the correct labels using the \emph{sklearn.metrics.accuracy\_score()}. To calculate the, the recall, and the f1-score, we used the function \emph{sklearn.metrics.classification\_report()}.
 
 \section{Error analysis}
 
@@ -50,7 +50,9 @@ We continued to analyze the errors and realized that our model didn’t consider
 By analyzing the errors, we realized that our model failed some sentences because some words in it appeared more than once in the predicted label (incorrect one). For example, in the sentence “The Babylonians kept abreast of the times using a form of this instrument seen here: Sundial” our model predicted the label History due to the word “Babylonians”. The word “Babylonian” appears in 6 sentences in the train set and 5 of them correspond to the label “History”. The answer to this sentence is very important to predict the right label, “Science”. The problem here is that the word “Sundial” never appears in the train set, so our model cannot predict that this sentence is related to “Science”.
 
 In our Naïve Bayes approach, we started with the \emph{Gaussian} technique, but we didn't get the best accuracy. This result is understandable, since this distribution is appropriate for continuous data. 
-By analyzing the available distributions, we realized that the \emph{Multinomial} one was the best, since it is appropriate for discrete features.
+By analyzing the available distributions, we realized that the \emph{Multinomial} one was the best, since it is appropriate for discrete features. 
+
+In a general way, the SVM approach has higher precision\tablefootnote{evaluates how precise a model is in predicting positive labels}, recall\tablefootnote{calculates the percentage of actual positives a model correctly identified} and f1-score\tablefootnote{essentially the harmonic mean of precision and recall}, as we can see in the tables below.
 
 \section{Future Work}
 
@@ -102,10 +104,15 @@ Literature & 118 & 111\\\hline
     \end{minipage} 
 \end{table}
 
-\section{Bibliography}
+\begin{multicols}{3}
+\section{Bibliography }
 \begin{itemize}
-\item \href{https://kavita-ganesan.com/tfidftransformer-tfidfvectorizer-usage-differences/}{Naïve Bayes and SVM}
-\item \href{https://kavita-ganesan.com/tfidftransformer-tfidfvectorizer-usage-differences/}{tfIdf Transformer}
+
+\item \href{https://aiiseasy.com/2019/06/09/text-classification-svm-naive-bayes-python/}{Naïve Bayes and SVM}
+\newline
+
+\item \href{https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html}{tfIdf Transformer}
 \end{itemize}
+\end{multicols}
 
 \end{document}
