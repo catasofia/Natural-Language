@@ -1,3 +1,11 @@
+"""
+NLP 2021 - IST
+
+Group 25:
+Catarina Sousa 93695
+Nelson Trindade 93743
+"""
+
 import sys
 import nltk
 
