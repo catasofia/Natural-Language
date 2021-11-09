@@ -18,8 +18,11 @@ def parser(fileName):
   with open(fileName,'r',encoding='UTF8') as file:
     for line in file:
       line=line.replace("\n","").replace("\"","").replace(",","").split("\t")
-      labels.append(line[0])
-      sentences.append(line[1:])
+      if len(line)==2:
+          sentences.append(line)
+      else:
+          labels.append(line[0])
+          sentences.append(line[1:])
   return labels, sentences
 
 def processing(sentences):
