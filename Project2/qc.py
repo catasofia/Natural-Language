@@ -1,49 +1,40 @@
 import sys
+import nltk
 
 from nltk.tokenize import word_tokenize
-from nltk.stem import PorterStemmer
-from nltk.stem import WordNetLemmatizer
 
-from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer, TfidfVectorizer
 from sklearn.svm import SVC
+from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer, TfidfVectorizer
 
-import nltk
+#Downloads necessary
 nltk.download('punkt')
 nltk.download('wordnet')
 
   
+def parseLine(line):
+  line = line.replace("\n","").replace("\"","").replace(",","").split("\t")
+  return [x for x in [x for x in line if x!=""] if x!=" "]
+
 def parser(fileName):
   labels, sentences=[],[]
 
   with open(fileName,'r',encoding='UTF8') as file:
     for line in file:
-      line=line.replace("\n","").replace("\"","").replace(",","").split("\t")
-      line = [x for x in [x for x in line if x!=""] if x!=" "]
+      line = parseLine(line)
 
-      if (len(line)==2):
+      if (len(line)==2): #Q&A only
         labels.append("")
         sentences.append(line)
-      else:
+      else: #Label&Q&A
         labels.append(line[0])
         sentences.append(line[1:])
   return labels, sentences
 
 def processing(sentences):
   questionsList = []
-  stemmer = PorterStemmer()
-  lemmatizer = WordNetLemmatizer()
-
   for i in sentences:
     tokens = word_tokenize(str(i))
-
-    """ lowCase = [word.lower() for word in tokens]
-
-    stem = [stemmer.stem(word) for word in lowCase]
-
-    lemma = [lemmatizer.lemmatize(word) for word in stem] """
-
     questionsList.append(' '.join(tokens))
-  
   return questionsList
 
 # process input files
@@ -57,9 +48,9 @@ labelsTest, questionsTest = parser(test_file)
 testProcessed = processing(questionsTest)
 
 #initialize functions
+classifier = SVC()
 countVectorizer = CountVectorizer()
 tfIdfTransformer = TfidfTransformer()
-classifier = SVC()
 
 #fit transform in training set and transform for test set
 trainVector = countVectorizer.fit_transform(trainProcessed)
@@ -74,4 +65,4 @@ labels_predict = classifier.predict(test_tfidf)
 
 #output predictions
 for prediction in labels_predict:
-    print(prediction)
+  print(prediction)
