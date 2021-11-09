@@ -13,16 +13,19 @@ nltk.download('wordnet')
 
   
 def parser(fileName):
-  data, labels, sentences=[],[],[]
+  labels, sentences=[],[]
 
   with open(fileName,'r',encoding='UTF8') as file:
     for line in file:
       line=line.replace("\n","").replace("\"","").replace(",","").split("\t")
-      if len(line)==2:
-          sentences.append(line)
+      line = [x for x in [x for x in line if x!=""] if x!=" "]
+
+      if (len(line)==2):
+        labels.append("")
+        sentences.append(line)
       else:
-          labels.append(line[0])
-          sentences.append(line[1:])
+        labels.append(line[0])
+        sentences.append(line[1:])
   return labels, sentences
 
 def processing(sentences):
